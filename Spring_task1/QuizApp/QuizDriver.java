@@ -7,7 +7,7 @@ public class QuizDriver {
 
         // xml file is found in the resources directory
         BeanFactory ctx = new
-                ClassPathXmlApplicationContext("springConfig.xml");
+                ClassPathXmlApplicationContext("beans.xml");
         Quiz quiz = (Quiz)ctx.getBean("quiz");
         quiz.view();
 
