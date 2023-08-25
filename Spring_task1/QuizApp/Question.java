@@ -3,9 +3,9 @@ package QuizApp;
 import java.util.Arrays;
 
 public class Question {
-    int id;
-    String questionString;
-    Answer[] answersList;
+    Private int id;
+    Private String questionString;
+    Private Answer[] answersList;
 
     public Question() {
     }
