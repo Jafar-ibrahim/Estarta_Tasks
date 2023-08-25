@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class Quiz {
 
-    Question[] questionsList;
+    Private Question[] questionsList;
 
     public Quiz(Question[] questionsList) {
         this.questionsList = questionsList;
